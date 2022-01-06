@@ -15,32 +15,32 @@ The objective of this challenge is to implement the levels of friendship in Java
 
 `Class Acquaintance`
 
---Has an attribute: “name” (variable of type String)
+-- Has an attribute: “name” (variable of type String)
 
---Constructor: Acquaintance(String name)
+-- Constructor: Acquaintance(String name)
 
---Has a method public void getStatus which prints “[name] is just an acquaintance.\n”
+-- Has a method public void getStatus which prints “[name] is just an acquaintance.\n”
 
 `Class Friend`
 
---Class Friend inherits class Acquaintance
+-- Class Friend inherits class Acquaintance
 
---Constructor: Friend(String name, String homeTown)
+-- Constructor: Friend(String name, String homeTown)
 
---Has attribute “homeTown” (variable of type String) and Gender (variable of type boolean with value as Male and Feamale)
+-- Has attribute “homeTown” (variable of type String) and Gender (variable of type boolean with value as Male and Feamale)
 
---Has a method public void getStatus which prints “[name] is a friend and he/she is from [homeTown].\n”
+-- Has a method public void getStatus which prints “[name] is a friend and he/she is from [homeTown].\n”
 
 **Note**: Based on the gender you should display he/she. if gender is Male, print "he" in the statement and if the gender is Female, print "she"
 
 `Class BestFriend`
 
---Class BestFriend inherits class Friend
+-- Class BestFriend inherits class Friend
 
---Constructor: BestFriend(String name, String homeTown, String favoriteSong)
+-- Constructor: BestFriend(String name, String homeTown, String favoriteSong)
 
---Has attribute “favoriteSong” (variable of type String) and Gender (variable of type boolean with value as Male and Feamale)
+-- Has attribute “favoriteSong” (variable of type String) and Gender (variable of type boolean with value as Male and Feamale)
 
---Has a method public void getStatus which prints “[name] is my best friend. He/She is from [homeTown] and his/her favorite song is [favoriteSong]."
+-- Has a method public void getStatus which prints “[name] is my best friend. He/She is from [homeTown] and his/her favorite song is [favoriteSong]."
 
 **Note**: Based on the gender you should display he/she & his/her. if gender is Male, print "he" & "his" in the statement and if the gender is Female, print "she" & "her".
