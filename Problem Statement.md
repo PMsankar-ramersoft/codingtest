@@ -9,7 +9,7 @@ The objective of this challenge is to implement the levels of friendship in Java
 
 *As the levels of friendship increase, you get to know more about the person.*
 
-*On the basis of knowledge you have about a person: ***Best Friend > Friend > Acquaintance*** *
+*On the basis of knowledge you have about a person:* ***Best Friend > Friend > Acquaintance***
 
 **Implement the below levels in terms of 3 Java classes :**
 
